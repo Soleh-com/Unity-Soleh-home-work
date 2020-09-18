@@ -1,0 +1,30 @@
+using System;
+					
+public class Program
+{
+	string name = "A, E, I , O, U";
+	string name2 = "B, C, D, F, G,  H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y, Z";
+	public  void Main()
+	{
+		Console.WriteLine("Введите букву :");
+		 string s = Console.ReadLine();
+    switch (s){
+      case "A":
+      case "O":
+      case "U":
+      case "E":
+      case "I":
+      case "a":
+      case "o":
+      case "u":
+      case "e":
+      case "i":
+        Console.WriteLine("гласная");
+        break;
+      default:
+              Console.WriteLine("Согласная");
+              break;
+				
+		}
+	}
+}
