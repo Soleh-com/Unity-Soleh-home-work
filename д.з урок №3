@@ -1,0 +1,42 @@
+using System;
+					
+public class Program
+{
+	int [,] massive = new int [3,3];
+	public  void Main()
+	{
+	massive[0,0] = 1;	
+		Console.Write(massive[0,0] = 1);
+	Console.Write("  | ");
+		massive[0,1] = 2;	
+		Console.Write(massive[0,1] = 2);
+		Console.Write("  | ");
+		massive[0,2] = 3;	
+		Console.Write(massive[0,2] = 3);
+		Console.Write("  | ");
+		Console.WriteLine();
+		
+		
+		massive[0,0] = 1;	
+		Console.Write(massive[1,0] = 4);
+	Console.Write("  | ");
+		massive[0,1] = 2;	
+		Console.Write(massive[1,1] = 5);
+		Console.Write("  | ");
+		massive[0,2] = 3;	
+		Console.Write(massive[1,2] = 6);
+		Console.Write("  | ");
+		Console.WriteLine();
+		
+		massive[0,0] = 1;	
+		Console.Write(massive[2,0] = 7);
+	Console.Write("  | ");
+		massive[0,1] = 2;	
+		Console.Write(massive[2,1] = 8);
+		Console.Write("  | ");
+		massive[0,2] = 3;	
+		Console.Write(massive[2,2] = 9);
+		Console.Write("  | ");
+		Console.WriteLine();
+		}
+	}
