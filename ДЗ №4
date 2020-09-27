@@ -1,0 +1,39 @@
+
+    using System;
+
+    public class Program
+    {
+        static double number1, number2, otvet;
+        static string simvol;
+
+        public static void Main()
+        {
+            Console.Write("Пожалуста Введите первое число: ");
+            number1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Пожалуста Введите знак(-, +, /, *):");
+            simvol = Console.ReadLine();
+        
+            Console.Write("Пожалуста Введите второе число: ");
+            number2 = double.Parse(Console.ReadLine());
+
+            switch (simvol) {
+                case "-":
+                    otvet = number1 - number2;
+                    Console.Write("Вот Ваш ответ: "+ otvet);
+                    break;
+                case "+":
+                    otvet = number1 + number2;
+                    Console.Write("Вот Ваш ответ: " + otvet);
+                    break;
+                case "/":
+                    otvet = number1 / number2;
+                    Console.Write("Вот Ваш ответ: " + otvet);
+                    break;
+                case "*":
+                    otvet = number1 * number2;
+                    Console.Write("Вот Ваш ответ: " + otvet);
+                    break;
+            }
+        }
+    }
